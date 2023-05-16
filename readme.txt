@@ -16,3 +16,4 @@ iv. To know about the teams.
 v. Deadline for the IIT-JAM exam.
 vi. Deadline for the IAT exam.
 vii. Study Materials.
+viii. Any other custom related queries.
