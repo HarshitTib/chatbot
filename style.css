@@ -4,19 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    /* background-image: url("./Images/background.jpg"); */
-    background-repeat: no-repeat;
-    
 }
 html,body{
-    display: flex;
+    display: grid;
     height: 100%;
-    justify-content: center;
-    align-items: center;
     place-items: center;
-    background-image: url("./Images/background.jpg");
-    background-position:center;
-    background-repeat: no-repeat;
 }
 
 ::selection{
@@ -46,8 +38,7 @@ html,body{
     border-top: 0px;
 }
 .wrapper .title{
-    background: var(--background-color);
-    background-image: var(--background-image);
+    background: #007bff;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -55,10 +46,6 @@ html,body{
     text-align: center;
     border-bottom: 1px solid #006fe6;
     border-radius: 5px 5px 0 0;
-}
-.form
-{
-    background-color: #f5f5f5;
 }
 .wrapper .form{
     padding: 20px 15px;
@@ -89,27 +76,17 @@ html,body{
     max-width: 53%;
     margin-left: 10px;
 }
-.form .inbox .msg-header div, p{
+.form .inbox .msg-header p{
     color: #fff;
-    background: var(--background-color);
+    background: #007bff;
     border-radius: 10px;
     padding: 8px 10px;
     font-size: 14px;
-}
-.form .inbox .msg-header div a
-{
-    color: white;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-}
-.form .inbox .msg-header div a:hover
-{
-    color: blue;
+    word-break: break-all;
 }
 .form .user-inbox .msg-header p{
     color: #333;
-    background: #ffffff;
+    background: #efefef;
 }
 .wrapper .typing-field{
     display: flex;
